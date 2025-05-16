@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load dataset
-df = pd.read_csv("maternal_health_1000_samples.csv")
+df = pd.read_csv("data.csv")
 
 # Encode labels
 le = LabelEncoder()
